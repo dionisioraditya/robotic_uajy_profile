@@ -80,6 +80,7 @@ const FeatureBlock = ({ title, description, mediaSrc, mediaType = 'image', isRev
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8, delay: delay }}
+                className="feature-text"
                 style={{
                     flex: '1',
                     minWidth: '350px',
@@ -117,6 +118,7 @@ const FeatureBlock = ({ title, description, mediaSrc, mediaType = 'image', isRev
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8, delay: delay }}
+                className="feature-media"
                 style={{
                     flex: '1',
                     minWidth: '350px',

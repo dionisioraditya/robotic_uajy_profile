@@ -3,19 +3,22 @@
 :root {
   --bg-dark: #050505;
   --bg-panel: rgba(20, 20, 20, 0.6);
-  --primary-color: #00f3ff; /* Cyber Cyan */
-  --secondary-color: #ff2a6d; /* Neon Red/Pink for sporty contrast */
-  --accent-green: #05ffa1; /* Circuit Green */
+  --primary-color: #00f3ff;
+  /* Cyber Cyan */
+  --secondary-color: #ff2a6d;
+  /* Neon Red/Pink for sporty contrast */
+  --accent-green: #05ffa1;
+  /* Circuit Green */
   --text-primary: #ffffff;
   --text-secondary: #a0a0a0;
-  
+
   --glass-border: 1px solid rgba(255, 255, 255, 0.1);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  
+
   --font-main: 'Inter', sans-serif;
   --font-display: 'Orbitron', sans-serif;
-  
+
   --transition-fast: 0.2s ease;
   --transition-normal: 0.4s ease;
 }
@@ -34,7 +37,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -99,8 +107,66 @@ ul {
   transition: var(--transition-fast);
 }
 
-.btn-primary:hover {
-  background: var(--primary-color);
-  color: #000;
-  box-shadow: 0 0 20px var(--primary-color);
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  /* Force vertical stack for feature blocks on mobile */
+  .feature-block {
+    flex-direction: column-reverse !important;
+    height: auto !important;
+    min-height: auto !important;
+    padding-bottom: 40px;
+  }
+
+  .feature-text {
+    padding: 30px 20px !important;
+    min-width: 100% !important;
+    text-align: center;
+    align-items: center !important;
+  }
+
+  .feature-text p {
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .feature-text button {
+    margin: 0 auto;
+  }
+
+  .feature-media {
+    height: 300px !important;
+    min-width: 100% !important;
+  }
+
+  /* Hero Adjustments */
+  #hero {
+    align-items: center !important;
+    justify-content: center;
+    padding-top: 100px !important;
+  }
+
+  #hero .container {
+    margin-top: -50px;
+  }
 }

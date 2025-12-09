@@ -159,8 +159,8 @@ const FocusAreas = () => {
             {/* Feature Blocks */}
             <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <FeatureBlock
-                    title="Fundamentals & IoT"
-                    description="Building the bedrock of robotics. We master the core principles of electronics, PCB design, CAD, and C/C++ programming to create intelligent connected devices."
+                    title="Fundamentals Robotics& IoT"
+                    description="We equip new members with essential technical skills, ranging from Electronics & PCB Design to CAD & C/C++ Programming, specifically tailored for creating high-tech intelligent devices."
                     mediaSrc={basicsVideo}
                     mediaType="video"
                     isReversed={false}

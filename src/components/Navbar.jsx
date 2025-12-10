@@ -33,7 +33,7 @@ const Navbar = () => {
                     </span>
                 </div>
                 <ul style={{ display: 'flex', gap: '30px' }}>
-                    {['About', 'Focus Areas', 'Contact'].map((item) => (
+                    {['About', 'Focus Areas', 'Partners', 'Contact'].map((item) => (
                         <li key={item}>
                             <a href={`#${item.toLowerCase().replace(' ', '-')}`} style={{
                                 fontSize: '0.9rem',

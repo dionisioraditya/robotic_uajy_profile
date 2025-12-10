@@ -13,7 +13,7 @@ const About = () => {
                 <motion.h2
                     initial={{ opacity: 0, y: -50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                     style={{ textAlign: 'center', marginBottom: '60px', fontSize: '2.5rem' }}
                 >
@@ -23,7 +23,7 @@ const About = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: false, margin: "-100px" }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     style={{
                         background: 'var(--glass-bg)',

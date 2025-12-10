@@ -78,7 +78,7 @@ const FeatureBlock = ({ title, description, mediaSrc, mediaType = 'image', isRev
             <motion.div
                 initial={textInitial}
                 whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: false, margin: "-100px" }}
                 transition={{ duration: 0.8, delay: delay }}
                 className="feature-text"
                 style={{
@@ -116,7 +116,7 @@ const FeatureBlock = ({ title, description, mediaSrc, mediaType = 'image', isRev
             <motion.div
                 initial={mediaInitial}
                 whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: false, margin: "-100px" }}
                 transition={{ duration: 0.8, delay: delay }}
                 className="feature-media"
                 style={{

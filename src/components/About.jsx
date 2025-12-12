@@ -36,7 +36,7 @@ const About = () => {
                     }}
                 >
                     <p style={{ marginBottom: '20px', lineHeight: '1.8', fontSize: '1.1rem', color: '#ccc' }}>
-                        The Robotics Study Group (KSR) serves as a dedicated platform for students at Universitas Atma Jaya Yogyakarta (UAJY)
+                        The Kelompok Studi Robotik (KSR) serves as a dedicated platform for students at Universitas Atma Jaya Yogyakarta (UAJY)
                         specifically within the Faculty of Industrial Technology (FTI) to explore the realms of <strong>Robotics</strong> and <strong>Internet of Things (IoT)</strong>.
                     </p>
                     <p style={{ marginBottom: '20px', lineHeight: '1.8', fontSize: '1.1rem', color: '#ccc' }}>
